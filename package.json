@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "delete:docs": "del docs",
-    "build:docs": "npm run delete:docs && vite build base=./ && copyfiles dist/** docs -f"
+    "preview": "vite preview"
   },
   "dependencies": {
     "copyfiles": "^2.4.1",
